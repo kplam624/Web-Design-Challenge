@@ -15,16 +15,64 @@
 
 
   <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="style.css"
 
 </head>
 
 <body>
-<section>
-  <h1>Summary: Latitude Comparisons</h1>
-  <img src="assets/images/Fig1.png" alt="Attempt 1">
-  <p>The purpose of the project is to compare the different weather patterns with the latitude.</p>
-</section>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Details
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Data</a>
+            <a class="dropdown-item" href="#">Visualization</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<section>
+  <header id="header">
+    <h1>Summary: Latitude Comparisons</h1>
+  </header>
+  <img id="landing-image" src="assets/images/Fig1.png" alt="Attempt 1">
+  <p id="Summary">The purpose of the project is to compare the different weather patterns with the latitude.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lectus nulla, vehicula et vestibulum vel, lacinia non lectus. Aliquam ultricies vulputate venenatis. Nunc sem metus, posuere at magna sit amet, fringilla faucibus quam. Sed non urna sed tellus semper fermentum. Vestibulum eget purus justo. Pellentesque mattis commodo turpis, ut lacinia felis dignissim nec. Curabitur ligula turpis, bibendum at eleifend a, tincidunt id lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+    Maecenas pellentesque nec dui id volutpat. Aenean porttitor mollis tellus, nec pulvinar tortor efficitur id. Morbi in scelerisque nisl, et rhoncus velit. Fusce quis feugiat massa, at pulvinar nulla. Aenean dapibus aliquam erat, nec semper libero vestibulum vitae. Nam quis leo leo. Curabitur quis iaculis enim. Aliquam eget laoreet felis, sit amet pharetra ligula. Aliquam lobortis facilisis ante at egestas. Pellentesque quis tortor ullamcorper, gravida nisl et, luctus ante. Ut quis ultrices orci, quis malesuada erat. Morbi rhoncus vestibulum consequat. Curabitur volutpat sed quam vitae rutrum. Fusce sit amet tristique lorem. Quisque malesuada, nibh at tempus feugiat, felis ipsum lobortis mi, et tempor nisi dolor sed elit. Cras vehicula ligula ac sem convallis rhoncus.
+    
+    Aliquam erat volutpat. Aenean mollis, enim pharetra gravida pulvinar, diam dolor vehicula metus, quis elementum nunc magna sit amet turpis. Vestibulum cursus condimentum lectus nec tristique. Etiam et metus dui. Etiam suscipit tellus vitae mi imperdiet, nec scelerisque magna suscipit. Nullam euismod ac arcu at semper. Sed vitae velit sodales, maximus eros eu, eleifend lectus. Quisque consectetur tortor eu tortor finibus tincidunt eleifend non lacus. Duis molestie volutpat tellus, eu dignissim quam porttitor eu. 
+  </p>
+
+  <h2 id="header2">Visualization</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="assets/images/Fig1.png" alt = "Fig1" class="resize">
+      </div>
+      <div class="col-sm-3">
+        <img src="assets/images/Fig2.png" alt="Fig2" class="resize"> 
+      </div>
+      <div class="col-sm-3">
+        <img src="assets/images/Fig3.png" alt="Fig3" class="resize">
+      </div>
+      <div class="col-sm-3">
+        <img src="assets/images/Fig4.png" alt="Fig4" class="resize">
+      </div>
+    </div>
+  </div>
+</section>
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

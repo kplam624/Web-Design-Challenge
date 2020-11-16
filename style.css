@@ -1,0 +1,33 @@
+/* Creating a style sheet for the html */
+
+body{
+}
+
+nav{
+    background: red;
+}
+
+#header,
+#header2{
+    color: turquoise;
+}
+
+section{
+    padding: 20px;
+}
+
+#landing-image{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    float: bottom;
+}
+
+.resize{
+    width: 300px;
+    height: 300px;
+}
