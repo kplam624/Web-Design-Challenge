@@ -16,15 +16,20 @@ section{
 #landing-image{
     float: left;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
 }
 
 .container{
     float: bottom;
 }
 
+#Summary{
+    padding: 20px;
+}
+
 .resize{
     width: 300px;
     height: 300px;
+    padding: 40px;
 }
