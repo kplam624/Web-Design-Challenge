@@ -15,11 +15,55 @@
 
 
   <!-- Our own CSS stylesheet -->
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="fig1.html">Temperature</a>
+            <a class="dropdown-item" href="fig2.html">Humidity</a>
+            <a class="dropdown-item" href="fig3.html">Cloudiness</a>
+            <a class="dropdown-item" href="fig4.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class = "nav-item">
+          <a class="nav-link" href="Comparison.html">Comparisons</a>
+        </li>
+        <li class = "nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="assets/images/Fig1.png" alt = "Fig1" class="resize-comp">
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/Fig2.png" alt="Fig2" class="resize-comp"> 
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/Fig3.png" alt="Fig3" class="resize-comp">
+      </div>
+      <div class="col-sm-6">
+        <img src="assets/images/Fig4.png" alt="Fig4" class="resize-comp">
+      </div>
+    </div>
+  </div>
 
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
