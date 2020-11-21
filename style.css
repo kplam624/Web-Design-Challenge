@@ -26,6 +26,7 @@ section{
 
 #Summary{
     padding: 20px;
+    width: 1024px;
 }
 
 .resize{
@@ -38,4 +39,8 @@ section{
     width: 600px;
     height: 550px;
     padding:30px;
+}
+
+#Visualization{
+    width: 30%;
 }
