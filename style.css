@@ -20,13 +20,13 @@ section{
     height: 350px;
 }
 
-.container{
+/* .container{
     float: bottom;
-}
+} */
 
 #Summary{
     padding: 20px;
-    width: 1024px;
+    width: 50%;
 }
 
 .resize{
@@ -41,6 +41,6 @@ section{
     padding:30px;
 }
 
-#Visualization{
-    width: 30%;
-}
+/* #Visualization{
+    width: 50%;
+} */
