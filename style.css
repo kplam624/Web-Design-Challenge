@@ -9,6 +9,13 @@ section{
     padding: 20px;
 }
 
+td{
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+}
+
 #header,
 #header2{
     color: turquoise;
@@ -28,6 +35,10 @@ section{
 }
 
 .container-summary{
+    background-color: white;
+}
+
+.container{
     background-color: white;
 }
 
