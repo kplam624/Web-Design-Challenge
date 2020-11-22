@@ -16,6 +16,7 @@ table,th,td{
     border: 1px solid black;
 }
 
+/* For the ids */
 #header,
 #header2{
     color: turquoise;
@@ -34,11 +35,12 @@ table,th,td{
     width: 60%;
 }
 
+/* For the classes */
 .container-summary{
     background-color: white;
 }
 
-.container{
+.container-table{
     background-color: white;
 }
 
